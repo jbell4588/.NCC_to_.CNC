@@ -184,7 +184,7 @@ def _cmd_batch(args: argparse.Namespace) -> int:
 
         dst.write_text(result.output, encoding="utf-8")
         status = "WARN " if result.validation.warnings else "OK   "
-        print(f"{status} {src.name} → {dst.name}")
+        print(f"{status} {src.name} -> {dst.name}")
         if args.verbose:
             print(result.summary(verbose=True))
         ok_count += 1

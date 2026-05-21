@@ -13,3 +13,6 @@ dist/
 build/
 
 mnt/
+
+examples/out/
+*.cnc
