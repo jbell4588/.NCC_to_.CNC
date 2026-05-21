@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: ncc-converter
+Version: 0.1.0
+Summary: Burny .NCC G-code normaliser and converter
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+Requires-Dist: pytest-cov>=5.0; extra == "dev"
+Requires-Dist: ruff>=0.4; extra == "dev"

@@ -1,0 +1,2 @@
+[console_scripts]
+ncc = ncc_converter.cli:main
